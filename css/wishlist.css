@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#mess{
+    padding:20px;
+}
+
+#cas1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #282c3f;
+}
+
+#para{
+    font-size: 1.2rem;
+    color: #94989f;
+    padding-bottom: 20px;
+}
+
+#shopping{
+    margin-left: 3.2rem;
+    border: 1px solid #3466e8;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14.5px 51px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#shopping a{
+    text-decoration: none;
+    color: #3466e8;
+}
+
+#icons-list{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#icons-list i{
+    font-size: 100px;
+}

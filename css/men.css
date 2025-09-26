@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#offer-sec img{
+    width: 100%;
+}
+
+#coupons img{
+    width: 100%;
+}
+
+#coup{
+    display: flex;
+}
+
+#coup img{
+    width: 50%;
+}
+
+#deals img{
+    width: 100%;
+}
+
+#sections{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+#sections img{
+    height: 200px;
+    width: 150px;
+}
+
+#deals2 img{
+    width: 100%;
+}
+
+#category{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17px;
+    justify-content: center;
+}
+
+#category img{
+    padding:4px;
+    margin-left: 5px;
+}
+
+#app{
+    padding: 10px 0 10px 0;
+}
+
+#app img{
+    width: 100%;
+}

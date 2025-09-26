@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color:white;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #b6b1b1;
+}
+
+#logo-container a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+#logo-container #content{
+    display: none;
+    position: absolute;
+    background-color: #f5f5f6;
+    min-width: 100px;
+    color: #282c3f;
+    border-radius: 10px;
+}
+
+#logo-container:hover #content{
+    display: block;
+}
+
+#logo-container a:hover{
+    background-color: #b6b1b1;
+}
+
+#myntra-home{
+    height:2.8rem; 
+    margin-left: 1%; 
+}
+
+#navbar{
+   display: flex;
+   min-width: 470px;
+   width: 20%;
+   justify-content: space-evenly;
+}
+
+#navbar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #2B2c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom:5px solid white;
+    padding: 27px 0;
+}
+
+#navbar a:hover{
+    border-bottom:4px solid #f54e77;
+}
+
+#navbar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+
+#search-bar{
+    height: 40px;
+    min-width: 180px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#img{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+
+    background-color: #f5f5f6;
+    color: #2B2c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    font-size: 22px;
+}
+
+#search-input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+#action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+#action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 0;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#action-bar #action-container a{
+    text-decoration: none;
+    color: black;
+    border-bottom:4px solid white;
+}
+
+#action-bar #action-container a:hover{
+    border-bottom:4px solid #f54e77;
+}
+
+#action-bar #action-container i{
+    font-size: 20px;
+}
+
+/* ---------Main Container------- */
+
+#banner-container{
+    margin: 40px 0;
+}
+
+#banner-img{
+    width: 100%;
+}
+
+#category-heading{
+   text-transform: uppercase;
+   color: #3e4152;
+   letter-spacing: .15rem;
+   margin: 50px 0 10px 30px;
+   max-height: 5em;
+   font-weight: 700; 
+}
+
+#category-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#sale-img{
+    width: 250px;
+}
+
+/* ------------footer-------------- */
+
+#footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom:25px;
+}
+
+#footer-column a{
+    color:#696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+#footer-column a:hover{
+    color: black;
+}
+
+#footer-icons{
+    font-size: 30px;
+    color:#696b79;
+}
+
+#new-icons{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+#new-icons #p1{
+    padding-top: 14px;
+}
+
+#new-icons #case1{
+    font-weight: 700;
+}
+
+#new-icons2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#new-icons2 img{
+    width: 85px;
+}
+
+#new-icons2 #p1{
+    padding-top: 14px;
+}
+
+#new-icons2 #case1{
+    font-weight: 700;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+#address{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#address #add{
+    font-weight: 700;
+}
+
+

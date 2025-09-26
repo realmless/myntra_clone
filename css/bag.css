@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#para{
+    text-align: center;
+}
+
+#one{
+    font-weight: 700;
+    color: #282c3f;
+    padding-bottom: 4px;
+}
+
+#two{
+    color: #94989f;
+    padding-bottom: 20px;
+}
+
+#add-items{
+    margin-left: 3rem;
+    border: 1px solid #3466e8;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#add-items a{
+    text-decoration: none;
+    color: #3466e8;
+}

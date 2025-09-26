@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#p1{
+    padding: 20px;
+}
+
+#p1 a{
+    text-decoration: none;
+    color: rgb(121, 116, 116);
+    padding: 10px;
+}
+
+#p1 a:hover{
+    color: black;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#products{
+    width: 200px;
+    padding: 20px;
+    border: 2px soild black;
+}
+
+#products img{
+    width: 100%;
+    padding: 10px;
+}
+
+#products #cont{
+    text-align: center;
+}
